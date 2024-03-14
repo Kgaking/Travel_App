@@ -36,7 +36,10 @@ body {
 
 .card {
   width: 400px;
-  height: max-content;
+  justify-content: space-around;
+  overflow: hidden;
+  max-height: 90vh;
+  height: 100%;
   margin: 1rem;
   padding: 1rem;
   display: flex;
